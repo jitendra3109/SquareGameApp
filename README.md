@@ -2,8 +2,14 @@
  
 ## FunWithSquare
 
-  # Perfect Square game.
+  
+| ![](Screenshot_2016-10-19-23-42-25-1.png) | ![](Screenshot_2016-10-19-23-42-40-1.png)  |
+|-------------------------------------------|--------------------------------------------|
+| ![](Screenshot_2016-10-19-23-42-54-1.png) | ![](Screenshot_2016-10-19-23-43-21-1.png)  | 
    
+
+# Perfect Square game.
+ 
    This is Android Fun game to add digit and make a perfect Square Number ; Given prefix of square number.
  
 * Rules of the Game:<br/>
