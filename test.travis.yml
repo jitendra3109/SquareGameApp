@@ -1,12 +1,19 @@
-language: java
-gradle check
-
-
-
-before_cache:
-  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
-cache:
-  directories:
-    - $HOME/.gradle/caches/
-    - $HOME/.gradle/wrapper/
+language: android
+jdk:
+  - oraclejdk8
+android:
+  components:
+    - tools 
+    - tools # see https://github.com/travis-ci/travis-ci/issues/
+    - platform-tools
+    - build-tools-24.0.2
+    - android-24
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - sys-img-armeabi-v7a-$ANDROID_TARGET
+licenses:
+    - android-sdk-license-.+
+script:
+  - ./gradlew build
+Contact GitHub API Training Shop Blog About
+©
