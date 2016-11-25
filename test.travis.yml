@@ -13,7 +13,5 @@ android:
     - sys-img-armeabi-v7a-$ANDROID_TARGET
 licenses:
     - android-sdk-license-.+
-script:
-  - ./gradlew build
 Contact GitHub API Training Shop Blog About
 ©
