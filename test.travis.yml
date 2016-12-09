@@ -3,8 +3,7 @@ android:
   components:
     # Uncomment the lines below if you want to
     # use the latest revision of Android SDK Tools
-    - tools
-    - tools # https://github.com/travis-ci/travis-ci/issues/6040#issuecomment-219367943
+    
     - platform-tools
 
     # The BuildTools version used by your project
@@ -23,7 +22,6 @@ android:
     # if you need to run emulator(s) during your tests
     # - sys-img-armeabi-v7a-android-19
     # - sys-img-x86-android-17
-jdk:
-    - oraclejdk8
+
 sudo: false
-script: ./gradlew build check
+
