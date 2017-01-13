@@ -5,7 +5,7 @@
   
 | ![](Screenshot_2017-01-14-02-42-59.png) | ![](Screenshot_2017-01-14-02-43-04.png)  |
 |-------------------------------------------|--------------------------------------------|
-| ![](Screenshot_2017-01-14-02-43-20.png) | ![](Screenshot_2017-01-14-02-42-33.png)  | 
+| ![](Screenshot_2017-01-14-02-43-20.png) | ![](Screenshot_2017-01-14-02-43-55.png)  | 
    
 
 This is Android Fun game to add digit and make a perfect Square Number and perfect cube and perfect fourth root  for a  Given prefix number.
