@@ -92,11 +92,12 @@ public class PatriciaTrieTest {
         int y = 0;
         ArrayList<Integer> show = new ArrayList<Integer>();
         if (Square == "2") {
-            for (int i = 1; i < 100; i++) {
+            for (int i = 1; i < 30; i++) {
                 pt.insert(i * i);
             }
             int count = 0, start = 0, end = 0;
-            for (int i = 1; i < 100; i++) {
+
+            for (int i = 1; i < 30; i++) {
                 int w = 0;
                 int k = i * i;
                 while (k > 0) {
@@ -117,11 +118,11 @@ public class PatriciaTrieTest {
             show = square(start, end);
         }
         if (Square == "3") {
-            for (int i = 1; i < 100; i++) {
+            for (int i = 1; i <50; i++) {
                 pt.insert(i * i * i);
             }
             int count = 0, start = 0, end = 0;
-            for (int i = 1; i < 100; i++) {
+            for (int i = 1; i < 50; i++) {
                 int w = 0;
                 int k = i * i * i;
                 while (k > 0) {
@@ -142,11 +143,11 @@ public class PatriciaTrieTest {
             show = qube(start, end);
         }
         if (Square == "4") {
-            for (int i = 1; i < 100; i++) {
+            for (int i = 1; i < 50; i++) {
                 pt.insert(i * i * i * i);
             }
             int count = 0, start = 0, end = 0;
-            for (int i = 1; i < 100; i++) {
+            for (int i = 1; i < 50; i++) {
                 int w = 0;
                 int k = i * i * i * i;
                 while (k > 0) {
@@ -170,7 +171,7 @@ public class PatriciaTrieTest {
     }
     public  static ArrayList<Integer> qube(int X,int Z){
         ArrayList<Integer> qub = new ArrayList<Integer>();
-        int x=5,y=10;
+
         for(int i=X; i<Z; i++){
             qub.add(i*i*i);
         }
@@ -178,7 +179,7 @@ public class PatriciaTrieTest {
     }
     public  static  ArrayList<Integer> Quater(int X,int Z){
         ArrayList<Integer> Quat = new ArrayList<Integer>();
-        int x=5,y=10;
+
         for(int i=X; i<Z; i++){
             Quat.add(i*i*i*i);
         }
